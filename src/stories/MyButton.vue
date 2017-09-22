@@ -10,6 +10,7 @@
   
     methods: {
       onClick () {
+        this.$emit('click');
       }
     }
   }
